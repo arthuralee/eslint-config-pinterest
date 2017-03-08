@@ -21,7 +21,7 @@ module.exports = {
         'no-script-url': 0,
         'no-shadow': 0,
         'no-underscore-dangle': 0,
-        'no-unused-vars': [2, {'vars': 'all', 'args': 'none'}],
+        'no-unused-vars': [2, {'vars': 'all', 'args': 'none', 'ignoreRestSiblings': true}],
         'quotes': [2, 'single'],
         'pinterest/sort-imports': ['error', {
             'ignoreCase': true,
